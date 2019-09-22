@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_tb_favorite"
+        android:icon="@drawable/ic_launcher_foreground"
+        app:showAsAction="always"
+        android:title="@string/menu_tb_favorite"
+        />
+    <item
+        android:id="@+id/menu_tb_search"
+        android:icon="@drawable/ic_launcher_foreground"
+        app:showAsAction="always"
+        android:title="@string/menu_tb_search"
+        />
+    <item
+        android:id="@+id/menu_tb_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/menu_tb_settings"
+        />
+</menu>
